@@ -1,0 +1,50 @@
+cards:
+  Cap theorem:
+    "Consistency - all nodes are consistent
+    Availability - always accessible
+    Partitions - you can split things up
+    -compromises are made between these 3, cant all be @ %100"
+  sliding_windows:
+    "left and right pointers move scroll across subsets to find matching subsets
+    usually ends up O(N) time
+    "
+
+  merge_intervals:
+    "sets of intervals ()
+    having them sorted by start and then iterating
+    handle overlapps
+    "
+  cyclic_sort:  
+    ""
+  In-place_Linked_List_reversal:  
+    "gotta read into a new list"
+  Tree_BFS:  
+    ""
+  Tree_DFS:  
+    ""
+  Two_Heaps:  
+    ""
+  Subsets:  
+    ""
+  Modiified_Binary_search:  
+    ""
+  Subsets:  
+    ""
+  Bitwise_Xor:  
+    ""
+  Top_K_Elements:  
+    ""
+  K_Way_Merge:  
+    ""
+  Knapsack_DynamicProgramming:  
+    ""
+  Topological_Sort:  
+    ""
+  cyclic_sort:  
+    ""
+  cyclic_sort:  
+    ""
+  cyclic_sort:  
+    ""
+  cyclic_sort:  
+    ""
