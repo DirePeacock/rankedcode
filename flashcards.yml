@@ -1,50 +1,101 @@
+---
 cards:
+  2d_dynamic_programming:
+    def: 'uses a 2d array of dividing subproblems, usually involves 2 lists of options '
+    tags:
+      - ''
+  Bitwise_Xor:
+    def: ''
+    tags:
+      - ''
   Cap theorem:
-    "Consistency - all nodes are consistent
-    Availability - always accessible
-    Partitions - you can split things up
-    -compromises are made between these 3, cant all be @ %100"
-  sliding_windows:
-    "left and right pointers move scroll across subsets to find matching subsets
-    usually ends up O(N) time
-    "
-
+    def: Consistency - all nodes are consistent Availability - always accessible Partitions - you can split things up -compromises are made between these 3, cant all be @ %100
+    tags:
+      - ''
+  In-place_Linked_List_reversal:
+    def: gotta read into a new list
+    tags:
+      - ''
+  K_Way_Merge:
+    def: ''
+    tags:
+      - ''
+  Knapsack_DynamicProgramming:
+    def: ''
+    tags:
+      - ''
+  Modiified_Binary_search:
+    def: ''
+    tags:
+      - ''
+  Subsets:
+    def: ''
+    tags:
+      - ''
+  Top_K_Elements:
+    def: ''
+    tags:
+      - ''
+  Topological_Sort:
+    def: ''
+    tags:
+      - ''
+  Tree_BFS:
+    def: ''
+    tags:
+      - ''
+  Tree_DFS:
+    def: ''
+    tags:
+      - ''
+  Two_Heaps:
+    def: ''
+    tags:
+      - ''
+  bottom_up_dynamic_programming:
+    def: building subproblems up to larger ones good for when you know you will need to do them in  ascending order of the tree
+    tags:
+      - ''
+  byzantine_failure:
+    def: a node exhibits arbitrary behaviour and failure to follow expected path
+    tags:
+      - ''
+  crash_failure:
+    def: fails but communication stops
+    tags:
+      - ''
+  cyclic_sort:
+    def: 'a method of in place sorting the swap '
+    tags:
+      - ''
+  fail_stop_failure:
+    def: node halts and the stop is detected
+    tags:
+      - ''
+  hashmap:
+    def: so in python you basically use a dictionary, you can make a function to make keys
+    tags:
+      - ''
+  memoization:
+    def: 'caching the answers to subproblems and doing them '
+    tags:
+      - ''
   merge_intervals:
-    "sets of intervals ()
-    having them sorted by start and then iterating
-    handle overlapps
-    "
-  cyclic_sort:  
-    ""
-  In-place_Linked_List_reversal:  
-    "gotta read into a new list"
-  Tree_BFS:  
-    ""
-  Tree_DFS:  
-    ""
-  Two_Heaps:  
-    ""
-  Subsets:  
-    ""
-  Modiified_Binary_search:  
-    ""
-  Subsets:  
-    ""
-  Bitwise_Xor:  
-    ""
-  Top_K_Elements:  
-    ""
-  K_Way_Merge:  
-    ""
-  Knapsack_DynamicProgramming:  
-    ""
-  Topological_Sort:  
-    ""
-  cyclic_sort:  
-    ""
-  cyclic_sort:  
-    ""
-  cyclic_sort:  
-    ""
-  cyclic_sort:  
-    ""
+    def: sets of intervals () having them sorted by start and then iterating handle overlapps
+    tags:
+      - ''
+  omission_failure:
+    def: stopping of responses
+    tags:
+      - ''
+  sliding_windows:
+    alt:
+      - 2 pointers
+      - fast
+    def: 'left and right pointers move scroll across subsets to find matching subsets usually ends up O(N) time '
+    tags:
+      - ''
+  top_down_dynamic_programming:
+    def: for when you're starting at the top of a decision tree
+    tags:
+      - ''
