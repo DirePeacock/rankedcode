@@ -5,29 +5,29 @@ cards:
     tags:
       - ''
   Bitwise_Xor:
-    def: ''
+    def: this is a pattern that utilizes the properties that bitwies xor is one and only one of L or R to be honest these seem to all be bitwise tricks, you need to know th things of all of them
     tags:
-      - ''
+      - patterns
   Cap theorem:
-    def: Consistency - all nodes are consistent Availability - always accessible Partitions - you can split things up -compromises are made between these 3, cant all be @ %100
+    def: Consistency  - all nodes are consistent Availability  - always accessible Partitions  - you can split things up  -compromises are made between these 3, cant all be @ %100
     tags:
-      - ''
+      - System Design
   In-place_Linked_List_reversal:
     def: gotta read into a new list
     tags:
-      - ''
+      - linked list
   K_Way_Merge:
-    def: ''
+    def: this pattern depends upon the ability of a min heap to merge thins in log(N) time
     tags:
-      - ''
+      - it takes log(N) to add something to a min heap
   Knapsack_DynamicProgramming:
     def: ''
     tags:
-      - ''
+      - tree
   Modiified_Binary_search:
-    def: ''
+    def: 'modify bin search to '
     tags:
-      - ''
+      - tree
   Subsets:
     def: ''
     tags:
@@ -76,6 +76,10 @@ cards:
     def: so in python you basically use a dictionary, you can make a function to make keys
     tags:
       - ''
+  inorder traversal:
+    def: left - root - right
+    tags:
+      - ''
   memoization:
     def: 'caching the answers to subproblems and doing them '
     tags:
@@ -86,6 +90,10 @@ cards:
       - ''
   omission_failure:
     def: stopping of responses
+    tags:
+      - ''
+  preorder traversal:
+    def: root-left-right
     tags:
       - ''
   sliding_windows:
