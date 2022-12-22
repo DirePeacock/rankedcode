@@ -31,10 +31,10 @@ class Solution:
 
         for row in range(h):
             for i in range(w):
-        
+                pass
         for column in range(w):
             for j in range(h):
-
+                pass
         for i in range(0, h, 3):
             for j in range(0, w, 3):
                 pass

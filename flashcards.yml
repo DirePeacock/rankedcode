@@ -1,5 +1,8 @@
 ---
 cards:
+  epmty:
+    def: epmty
+    tags: epmty
   2d_dynamic_programming:
     def: 'uses a 2d array of dividing subproblems, usually involves 2 lists of options '
     tags:
@@ -12,6 +15,10 @@ cards:
     def: Consistency  - all nodes are consistent Availability  - always accessible Partitions  - you can split things up  -compromises are made between these 3, cant all be @ %100
     tags:
       - System Design
+  epmty:
+    def: epmty
+    tags: 
+      - epmty
   In-place_Linked_List_reversal:
     def: gotta read into a new list
     tags:
@@ -29,7 +36,7 @@ cards:
     tags:
       - tree
   Subsets:
-    def: ''
+    def: 'permutations and combinations of a given thing usually solved with a BFS of stuff'
     tags:
       - ''
   Top_K_Elements:
